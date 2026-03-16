@@ -1,4 +1,4 @@
-# screenshot-lite
+# screenshot_lite
 
 一个基于 PySide6 的轻量级截图工具 MVP，支持：
 

@@ -1,4 +1,4 @@
-from screenshot-lite.app import main
+from screenshot_lite.app import main
 
 
 if __name__ == "__main__":

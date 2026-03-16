@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from deep_translator import GoogleTranslator
 
-from screenshot-lite.settings_dialog import TranslationConfig
+from screenshot_lite.settings_dialog import TranslationConfig
 
 
 def translate_text(text: str, config: TranslationConfig) -> str:
