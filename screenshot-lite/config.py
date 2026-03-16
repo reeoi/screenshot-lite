@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from PySide6.QtCore import QSettings
 
-from snipaste_x.settings_dialog import ShortcutConfig, TranslationConfig
+from screenshot-lite.settings_dialog import ShortcutConfig, TranslationConfig
 
 
 class AppSettings:

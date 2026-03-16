@@ -10,8 +10,8 @@ from PySide6.QtCore import Qt
 from PySide6.QtGui import QPixmap
 from PySide6.QtWidgets import QApplication, QDialog, QDialogButtonBox, QLabel, QMessageBox, QPlainTextEdit, QVBoxLayout
 
-from snipaste_x.settings_dialog import TranslationConfig
-from snipaste_x.translation import translate_text
+from screenshot-lite.settings_dialog import TranslationConfig
+from screenshot-lite.translation import translate_text
 
 
 @lru_cache(maxsize=1)

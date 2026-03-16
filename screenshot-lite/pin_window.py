@@ -12,9 +12,9 @@ from PySide6.QtWidgets import (
     QWidget,
 )
 
-from snipaste_x.annotate import AnnotationCanvas, AnnotationToolbar
-from snipaste_x.ocr import OCRResultDialog, recognize_text
-from snipaste_x.settings_dialog import TranslationConfig
+from screenshot-lite.annotate import AnnotationCanvas, AnnotationToolbar
+from screenshot-lite.ocr import OCRResultDialog, recognize_text
+from screenshot-lite.settings_dialog import TranslationConfig
 
 class PinnedImageWindow(QWidget):
     def __init__(self, pixmap: QPixmap, translation_config: TranslationConfig) -> None:

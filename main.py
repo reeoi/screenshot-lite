@@ -1,4 +1,4 @@
-from snipaste_x.app import main
+from screenshot-lite.app import main
 
 
 if __name__ == "__main__":

@@ -6,12 +6,12 @@ from PySide6.QtCore import QObject
 from PySide6.QtGui import QAction, QColor, QGuiApplication, QIcon, QKeySequence, QPainter, QPixmap
 from PySide6.QtWidgets import QApplication, QMenu, QMessageBox, QSystemTrayIcon
 
-from snipaste_x.capture import ScreenCaptureOverlay, SelectionResult, capture_desktop
-from snipaste_x.config import AppSettings
-from snipaste_x.editor import EditorWindow
-from snipaste_x.hotkeys import GlobalHotkeyManager
-from snipaste_x.pin_window import PinnedImageWindow
-from snipaste_x.settings_dialog import ShortcutSettingsDialog, TranslationSettingsDialog
+from screenshot-lite.capture import ScreenCaptureOverlay, SelectionResult, capture_desktop
+from screenshot-lite.config import AppSettings
+from screenshot-lite.editor import EditorWindow
+from screenshot-lite.hotkeys import GlobalHotkeyManager
+from screenshot-lite.pin_window import PinnedImageWindow
+from screenshot-lite.settings_dialog import ShortcutSettingsDialog, TranslationSettingsDialog
 
 
 class SnipasteApplication(QObject):
